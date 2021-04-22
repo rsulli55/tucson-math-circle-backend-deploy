@@ -1,0 +1,11 @@
+atlas-username = "dbtesting"
+atlas-password = "9bsvzutjWZfjgaxE"
+connection-uri = "mongodb+srv://{username}:{password}@cluster0.wjvcq.mongodb.net/{database}?retryWrites=true&w=majority"
+auth-db = "auth_db"
+meeting-db = "meeting_db"
+student-db = "student_db"
+secret = "9e9db18a0160cf4549453b4613e48fa21f537f015c6f50ddb0a7e2180debf383"
+email-username ="admin@gmail.com"
+email-password ="password"
+admin-email = "admin@gmail.com"
+

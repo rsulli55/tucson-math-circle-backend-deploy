@@ -1,0 +1,16 @@
+version: '3.8'
+services:
+  mongodb:
+    image: mongo:latest
+    ports:
+      - 27017:27017
+
+  auth:
+    image: backend:latest
+    ports:
+      - 8000:8000
+
+  main:
+    image: backend:latest
+    ports:
+      - 8051:8051

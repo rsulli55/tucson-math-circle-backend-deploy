@@ -1,0 +1,4 @@
+[flake8]
+exclude = .git, auth/utils/make_config.py, tests/*
+max_line_length = 88
+ignore = E402, W503, E501, F821, E731
