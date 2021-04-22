@@ -1,2 +1,2 @@
-web: python auth/main.py $8000
-web: python main/src/app.py $9000
+web: python auth/main.py
+web: python main/src/app.py 
